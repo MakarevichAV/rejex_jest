@@ -1,5 +1,5 @@
-const {validateECMAScriptText, validateDomainZone, validateEmail} = require('./validate')
-const {describe, test, expect} = require('@jest/globals')
+import {validateECMAScriptText, validateDomainZone, validateEmail} from './validate'
+import {describe, test, expect} from '@jest/globals'
 
 describe('validateECMAScriptText', () => {
     test('should return true if Ecmascript is provided', () => {

@@ -15,4 +15,4 @@ const validateEmail = text => {
     return pattern.test(text)
 }
 
-module.exports = {validateECMAScriptText, validateDomainZone, validateEmail}
+export {validateECMAScriptText, validateDomainZone, validateEmail}
